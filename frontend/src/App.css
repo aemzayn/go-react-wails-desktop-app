@@ -1,0 +1,60 @@
+#app {
+  height: 100vh;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#logo {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 10% 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-button {
+  margin-bottom: 1rem;
+}
+
+.breed-selector-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.breed-select {
+  min-width: 4rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.image-container.multiple {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.dog-image {
+  width: 300px;
+  height: auto;
+}
